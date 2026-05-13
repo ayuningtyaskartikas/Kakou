@@ -1,2 +1,0 @@
-# Kakou
-Event Management App
