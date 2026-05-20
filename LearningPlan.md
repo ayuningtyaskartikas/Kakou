@@ -48,7 +48,7 @@ Get comfortable with the React Native development environment and basic componen
 - Expo official tutorial: https://expo.dev/learn
 - React Native getting started docs: https://reactnative.dev/docs/getting-started
 - React Native core components: https://reactnative.dev/docs/components-and-apis
-- YouTube: Academind React Native getting started tutorial
+- Video tutorial: Academind React Native getting started tutorial on YouTube
 
 ### Milestone
 
@@ -82,7 +82,7 @@ Learn how to move between screens in a React Native app. This is important becau
 - React Navigation docs: https://reactnavigation.org/docs/getting-started
 - React Navigation bottom tabs: https://reactnavigation.org/docs/bottom-tab-navigator
 - React Navigation native stack: https://reactnavigation.org/docs/native-stack-navigator
-- YouTube: Academind React Navigation tutorial
+- Video tutorial: Academind React Navigation tutorial on YouTube
 - My previous HTML/CSS event hub pages as visual references
 
 ### Milestone
@@ -118,7 +118,7 @@ Replace hardcoded event data with real data from my Express.js and MongoDB backe
 - React useState docs: https://react.dev/reference/react/useState
 - React useEffect docs: https://react.dev/reference/react/useEffect
 - Postman: https://www.postman.com
-- YouTube: Codevolution React Hooks tutorial
+- Video tutorial: Codevolution React Hooks tutorial on YouTube
 
 ### Milestone
 
@@ -152,7 +152,7 @@ Add login functionality and support authenticated API requests so users can acce
 - Axios interceptors docs: https://axios-http.com/docs/interceptors
 - JWT introduction: https://jwt.io
 - React Navigation authentication flow docs: https://reactnavigation.org/docs/auth-flow
-- YouTube: Codevolution React Native authentication tutorial
+- Video tutorial: Codevolution React Native authentication tutorial on YouTube
 
 ### Milestone
 
