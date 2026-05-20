@@ -7,21 +7,21 @@ const events = [
     name: 'Cocoa Night',
     date: 'May 20, 2026',
     location: 'Laie, Hawaii',
-    image: 'cocoa.jpg',
+    image: './assets/cocoa.jpg',
   },
   {
     id: '2',
     name: 'Lei Making Workshop',
     date: 'May 21, 2026',
     location: 'Student Center',
-    image: 'lei.jpg',
+    image: './assets/lei.jpg',
   },
   {
     id: '3',
     name: 'Daily Stop & Serve',
     date: 'May 22, 2026',
     location: 'Auditorium',
-    image: 'stop_serve.jpg',
+    image: './assets/stop_serve.jpg',
   },
 ];
 
