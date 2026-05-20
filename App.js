@@ -35,3 +35,29 @@ function EventCard({ event }) {
     </View>
   );
 }
+
+export default function App() {
+  return (
+    <ScrollView style={styles.container}>
+      <StatusBar style="dark" />
+
+      <View style={styles.header}>
+        <Text style={styles.title}>Kakou Events</Text>
+        <Text style={styles.subtitle}>
+          Week 1 React Native practice app with hardcoded event data.
+        </Text>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Upcoming Events</Text>
+
+        <FlatList
+          data={events}
+          keyExtractor={(item) => item.id}
+          renderItem={({ item }) => <EventCard event={item} />}
+          scrollEnabled={false}
+        />
+      </View>
+    </ScrollView>
+  );
+}
