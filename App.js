@@ -61,3 +61,58 @@ export default function App() {
     </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f7f3ea',
+    padding: 20,
+    paddingTop: 50,
+  },
+  header: {
+    marginBottom: 24,
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#7a1f1f',
+  },
+  subtitle: {
+    fontSize: 16,
+    color: '#555',
+    marginTop: 8,
+    lineHeight: 22,
+  },
+  section: {
+    marginBottom: 20,
+  },
+  sectionTitle: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 16,
+    color: '#222',
+  },
+  card: {
+    backgroundColor: '#fff',
+    borderRadius: 14,
+    padding: 14,
+    marginBottom: 16,
+  },
+  cardImage: {
+    width: '100%',
+    height: 180,
+    borderRadius: 10,
+    marginBottom: 12,
+  },
+  cardTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#222',
+    marginBottom: 6,
+  },
+  cardText: {
+    fontSize: 15,
+    color: '#555',
+    marginBottom: 4,
+  },
+});
