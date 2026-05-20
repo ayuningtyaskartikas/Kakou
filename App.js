@@ -24,3 +24,14 @@ const events = [
     image: 'stop_serve.jpg',
   },
 ];
+
+function EventCard({ event }) {
+  return (
+    <View style={styles.card}>
+      <Image source={{ uri: event.image }} style={styles.cardImage} />
+      <Text style={styles.cardTitle}>{event.name}</Text>
+      <Text style={styles.cardText}>{event.date}</Text>
+      <Text style={styles.cardText}>{event.location}</Text>
+    </View>
+  );
+}
