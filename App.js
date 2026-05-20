@@ -100,9 +100,10 @@ const styles = StyleSheet.create({
   },
   cardImage: {
     width: '100%',
-    height: 180,
+    height: 200,
     borderRadius: 10,
     marginBottom: 12,
+    resizeMode: 'cover',
   },
   cardTitle: {
     fontSize: 20,
