@@ -44,7 +44,7 @@ export default function App() {
       <View style={styles.header}>
         <Text style={styles.title}>Kakou Events</Text>
         <Text style={styles.subtitle}>
-          Week 1 React Native practice app with hardcoded event data.
+          Events
         </Text>
       </View>
 
